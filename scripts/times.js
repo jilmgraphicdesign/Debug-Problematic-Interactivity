@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    end_time = new Date();
-    formatted_end_time = formatTime(end_time);
-    start_time = new Date();
-    formatted_time = formatTime(start_time);
+    var end_time = new Date();
+    var formatted_end_time = formatTime(end_time);
+    var start_time = new Date();
+    var formatted_time = formatTime(start_time);
+    
   $("#start").on('click',function() {
     $("#start").addClass("hidden");
     $("#stop").removeClass("hidden");
